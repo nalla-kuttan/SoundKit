@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background-color: #000000;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #1904da;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #f71515;
+
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .w {
+    background-color: aquamarine;
+  }
+  
+  .a {
+    background-image: url("images/2.jpeg");
+  }
+  
+  .s {
+    background-image: url("images/3.jpeg");
+  }
+  
+  .d {
+    background-image: url("images/4.jpeg");
+  }
+  
+  .j {
+    background-image: url("images/5.jpeg");
+  }
+  
+  .k {
+    background-image: url("images/6.webp");
+  }
+  
+ 
+  .set {
+    margin: 10% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .boom{
+    background-image: url("images/boom.jpeg");
+    background-size: cover;
+  }
+  .tada{
+    background-image: url("images/drum.jpeg");
+    background-size: cover;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #da0404;
+    text-shadow: 3px 0 #09c2ff;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  .Home{
+    outline: none;
+    border: 10px solid #cb0404;
+    font-size: 5;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #1204da;
+    text-shadow: 1px 0 #19b5e9;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+  }
