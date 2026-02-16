@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sound Kit | Cyber-Glass Edition</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Inter:wght@300;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <h1>SOUND KIT</h1>
+
+      <!-- Instrument Switcher -->
+      <div class="control-panel">
+        <div class="switcher">
+          <button class="switch-btn active" data-kit="drums">DRUMS</button>
+          <button class="switch-btn" data-kit="guitar">GUITAR</button>
+        </div>
+
+        <div class="volume-control">
+          <label for="volume">VOL</label>
+          <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Visualizer -->
+      <canvas id="visualizer-canvas"></canvas>
+
+      <!-- Instrument Interface -->
+      <div id="instrument-display" class="kit-display">
+        <!-- Pads will be injected here by JS -->
+      </div>
+    </main>
+
+    <footer>
+      <p>© Ruban Manoj | Cyber-Glass Edition</p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
